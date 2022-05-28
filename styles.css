@@ -3,25 +3,21 @@ css:root {
     font-family: "Roboto", "Raleway", sans-serif;
   }
   header .port {
-    position: absolute;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     width: 1600px;
-    height: 80px;
     left: 0px;
     top: 0px;
     background: #ffffff;
   }
   header .index {
     width: 1600px;
-    height: 600px;
     left: 0px;
     top: 80px;
     background: #2f303a;
   }
   header .inner-link {
     width: 145px;
-    height: 31px;
     left: 215px;
     top: 24px;
     font-family: "Raleway";
@@ -33,14 +29,18 @@ css:root {
     letter-spacing: 0.03em;
     color: #2196f3;
   }
+  .web{
+    color: #2196f3;
+  }
+  .stat{
+    color: #212121;
+  }
   .inner-link:hover {
     color: #2196f3;
   }
   
   header .agency {
-    position: absolute;
     width: 53px;
-    height: 16px;
     left: 453px;
     top: 32px;
     text-decoration: none;
@@ -49,11 +49,10 @@ css:root {
     font-size: 14px;
     line-height: 114%;
     letter-spacing: 0.02em;
+    color: var(--brand-color);
   }
   header .portfolio {
-    position: absolute;
     width: 53px;
-    height: 16px;
     left: 552px;
     right: 0%;
     top: 32px;
@@ -64,6 +63,7 @@ css:root {
     font-size: 14px;
     line-height: 114%;
     letter-spacing: 0.02em;
+    color: var(--brand-color);
   }
   header .portfolio:hover,
   header .portfolio:focus,
@@ -74,9 +74,7 @@ css:root {
     color: #2196f3;
   }
   header .contact {
-    position: absolute;
     width: 51px;
-    height: 16px;
     left: 656px;
     top: 32px;
     font-family: "Roboto";
@@ -86,12 +84,10 @@ css:root {
     line-height: 114%;
     text-decoration: none;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--brand-color);
   }
   header .tel {
-    position: absolute;
     width: 110px;
-    height: 16px;
     left: 1263px;
     top: 32px;
     text-decoration: none;
@@ -107,9 +103,7 @@ css:root {
     color: #2196f3;
   }
   header .mail {
-    position: absolute;
     width: 135px;
-    height: 16px;
     text-decoration: none;
     left: 1078px;
     top: 32px;
@@ -126,6 +120,7 @@ css:root {
   }
   nav {
     text-decoration: none;
+    list-style: none;
   }
   nav .portfolio:hover,
   nav .portfolio:focus {
@@ -133,27 +128,22 @@ css:root {
   }
   body {
     width: 1600px;
-    height: 2349px;
-    position: absolute;
     color: #212121;
     background-color: white;
-    font-family: "Roboto", "Raleway",  sans-serif;
+    font-family: "Roboto", "Raleway", sans-serif;
   }
   .start {
     background-color: #2f303a;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     width: 1600px;
-    height: 600px;
     left: 0px;
     top: 80px;
   }
   .start > h1 {
-    position: absolute;
     color: white;
     font-size: 44px;
     width: 696px;
-    height: 120px;
     top: 280px;
     left: 452px;
     text-align: center;
@@ -163,12 +153,10 @@ css:root {
   }
   
   .start > .but {
-    position: absolute;
     color: white;
     width: 200px;
     background: #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    height: 50px;
     left: 700px;
     top: 430px;
     font-weight: 700;
@@ -186,7 +174,6 @@ css:root {
   .but3,
   .but4,
   .but5 {
-    position: absolute;
     font-family: "Roboto", sans-serif;
     background-color: #f5f4fa;
     border-radius: 4px;
@@ -201,7 +188,7 @@ css:root {
   }
   .but1 {
     width: 121px;
-    height: 38px;
+
     left: 510px;
     top: 174px;
     font-weight: 700;
@@ -209,7 +196,7 @@ css:root {
   }
   .but2 {
     width: 93px;
-    height: 38px;
+
     left: 639px;
     top: 174px;
     font-weight: 700;
@@ -217,7 +204,7 @@ css:root {
   }
   .but3 {
     width: 114px;
-    height: 38px;
+
     left: 740px;
     top: 174px;
     font-weight: 700;
@@ -225,7 +212,7 @@ css:root {
   }
   .but4 {
     width: 91px;
-    height: 38px;
+
     left: 862px;
     top: 174px;
     font-weight: 700;
@@ -233,11 +220,19 @@ css:root {
   }
   .but5 {
     width: 121px;
-    height: 38px;
+
     left: 961px;
     top: 174px;
     font-weight: 700;
     line-height: 187%;
+  }
+  .lorem, 
+  .list-buttons,
+  .list-nav,
+  .list-photos, 
+  .list-images,
+  .list-images{
+    list-style: none;
   }
   
   .but1:hover,
@@ -259,11 +254,10 @@ css:root {
     font-size: 14px;
     text-transform: uppercase;
     color: #212121;
+    list-style: none;
   }
   .text11 {
-    position: absolute;
     width: 270px;
-    height: 75px;
     left: 215px;
     top: 800px;
     font-style: normal;
@@ -274,9 +268,7 @@ css:root {
     color: #757575;
   }
   .text22 {
-    position: absolute;
     width: 270px;
-    height: 75px;
     left: 515px;
     top: 800px;
     font-style: normal;
@@ -287,9 +279,7 @@ css:root {
     color: #757575;
   }
   .text33 {
-    position: absolute;
     width: 270px;
-    height: 75px;
     left: 815px;
     top: 800px;
     font-style: normal;
@@ -300,9 +290,7 @@ css:root {
     color: #757575;
   }
   .text44 {
-    position: absolute;
     width: 270px;
-    height: 75px;
     left: 1115px;
     top: 800px;
     font-style: normal;
@@ -314,45 +302,35 @@ css:root {
   }
   .text > .text1 {
     left: 215px;
-    position: absolute;
     width: 270px;
-    height: 16px;
     top: 774px;
     line-height: 16px;
     letter-spacing: 0.03em;
   }
   .text > .text2 {
     left: 515px;
-    position: absolute;
     width: 270px;
-    height: 16px;
     top: 774px;
     line-height: 114%;
     letter-spacing: 0.03em;
   }
   .text > .text3 {
     left: 815px;
-    position: absolute;
     width: 270px;
-    height: 16px;
     top: 774px;
     line-height: 114%;
     letter-spacing: 0.03em;
   }
   .text > .text4 {
     left: 1115px;
-    position: absolute;
     width: 270px;
-    height: 16px;
     top: 774px;
     line-height: 114%;
     letter-spacing: 0.03em;
   }
   .what > h1 {
     font-family: "Roboto", sans-serif;
-    position: absolute;
     width: 352px;
-    height: 42px;
     left: 624px;
     top: 969px;
     font-style: normal;
@@ -367,9 +345,7 @@ css:root {
     background: #f5f4fa;
   }
   .we > h2 {
-    position: absolute;
     width: 210px;
-    height: 42px;
     left: 695px;
     top: 1543px;
     font-family: "Roboto", sans-serif;
@@ -381,11 +357,8 @@ css:root {
     letter-spacing: 0.03em;
     color: #212121;
   }
-  figure {
-    position: absolute;
-  }
+ 
   .imagine1 {
-    position: absolute;
     left: 215px;
     top: 262px;
   }
@@ -457,19 +430,19 @@ css:root {
     border-radius: 0px;
   }
   footer {
-    position: absolute;
     font-weight: 900;
     width: 1600px;
-    height: 252px;
     left: 0px;
     top: 2097px;
     background-color: #2f303a;
   }
   footer .end {
     width: 145px;
-    height: 31px;
     left: 215px;
     top: 24px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
     line-height: 221%;
     text-decoration: none;
@@ -478,7 +451,6 @@ css:root {
   }
   footer address {
     width: 246px;
-    height: 21px;
     left: 215px;
     top: 2208px;
     font-style: normal;
@@ -488,9 +460,11 @@ css:root {
     letter-spacing: 0.03em;
     color: #ffffff;
   }
+  footer .stat{
+    color: white;
+  }
   footer .tel {
     width: 231px;
-    height: 21px;
     left: 215px;
     top: 1769px;
     text-decoration-line: none;
@@ -502,7 +476,6 @@ css:root {
   }
   footer .mail {
     width: 231px;
-    height: 21px;
     left: 215px;
     top: 1799px;
     text-decoration-line: none;
